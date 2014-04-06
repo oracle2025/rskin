@@ -1,0 +1,17 @@
+RitschiSkin
+-----------
+
+RitschiSkin ist ein Programm mit dem Skins für Winamp oder Xmms einfach herstellen kann.
+
+zum Kompilieren benötigt man wxWindows, das man auf www.wxwindows.org bekommt.
+(ich habe Version 2.2.9 benutzt)
+
+kompiliert wird mit make, und installieren kann man das Programm von hand, in dem man das "rskin" nach /usr/local/bin kopiert, und den "templates" Ordner nach /usr/local/share/rskin. Wenn der "templates" Ordner woanders ist kann man das im Programm einstellen.
+
+Um es unter Windows mit MSVC zu kompilieren, kann man ein wxWindows Beispielprojekt öffnen, und dort die Dateien hinzufügen.
+
+
+
+
+
+Richard Spindler, 19. August 2002
